@@ -1,0 +1,63 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+p {
+	font-family: "Rubik", sans-serif;
+}
+a {
+	color: teal !important;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100vh;
+	background-image: url('../../assets/images/bg.png');
+	background-position: left top;
+	background-repeat: repeat;
+}
+#main {
+padding-bottom: 70px;
+}
+#kanan-atas {
+	top: 0;
+	right: 0;
+}
+#kiri-bawah {
+	bottom: 75px;
+	left: 0;
+}
+#bottom-bar {
+	left: 0;
+	bottom: 65px;
+
+}
+img#pic {
+	width: 75%;
+}
+#navbar {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-family: "Rubik", sans-serif;
+	font-weight: 300;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	background-color: transparent !important;
+	color: #000 !important;
+}
+.title-wedding {
+	font-family: "Pacifico", sans-serif;
+	font-size: 24px;
+	text-shadow: 0 7px 1em #ccc;
+}
+.title-person {
+	font-family: "Pacifico", sans-serif;
+	font-size: 32px;
+}
+
+@media only screen and (max-width: 480px) {
+	img#pic {
+		width: 100%;
+	}
+}

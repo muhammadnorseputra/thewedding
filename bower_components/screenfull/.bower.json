@@ -1,0 +1,15 @@
+{
+  "name": "screenfull",
+  "homepage": "https://github.com/sindresorhus/screenfull.js",
+  "version": "5.1.0",
+  "_release": "5.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v5.1.0",
+    "commit": "d4f3757e1e060c27a453ea3c07dede56b6958c60"
+  },
+  "_source": "https://github.com/sindresorhus/screenfull.js.git",
+  "_target": "^5.1.0",
+  "_originalSource": "screenfull",
+  "_direct": true
+}
